@@ -1,0 +1,117 @@
+body{
+    margin: auto;
+    padding: auto;
+    background-color: #07001a ;    
+    color: #7e0eff;  
+}
+
+#Matrix{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgba(255, 0, 0, 0);
+    z-index: 0;   
+    border-style: double;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#chuva0{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgba(255, 0, 0, 0);
+    z-index: 1; 
+    
+}
+
+#chuva1{
+    position: absolute;
+    z-index: 2;    
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 255, 0);
+    
+    
+}
+
+#chuva2{
+    position: absolute;
+    z-index: 4;    
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 255, 0); 
+ 
+    
+}
+
+#chuva3{
+    position: absolute;
+    z-index: 3;    
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 255, 0); 
+    
+    
+}
+
+.case{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin-top: -4px;    
+}
+
+#nums{ 
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Special Elite', cursive;  
+}
+
+.numOff{
+    color: #7e0eff00;
+}
+
+.numNeutro{
+    color: #b16efd28;
+    text-shadow:
+    0 0 1px #7e0eff5f,
+    0 0 2px #7e0eff5f,
+    0 0 3px #7e0eff5f,
+    0 0 4px #7e0eff5f,
+    0 0 5px #7e0eff5f,
+    0 0 6px #7e0eff5f,
+    0 0 7px #7e0eff5f,
+    0 0 8px #7e0eff5f;
+}
+
+.numBrilha{
+    color: #e8d4ff;
+    text-shadow:
+    0 0 1px #7e0eff,
+    0 0 2px #7e0eff,
+    0 0 3px #7e0eff,
+    0 0 4px #7e0eff,
+    0 0 5px #7e0eff,
+    0 0 6px #7e0eff,
+    0 0 7px #7e0eff,
+    0 0 8px #7e0eff;
+}
